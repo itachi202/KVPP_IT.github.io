@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+	background-image: url(304055.jpg);
+	background-repeat: repeat-y;
+	background-image size: 1200px 800px; 
+}
+h1{
+   text-transform: uppercase;
+   text-decoration-color: red;
+   margin-top: 24px;
+   text-decoration: none;
+
+
+}
+p{
+
+}
+h2{
+	text-decoration: none;
+	color: #53FD02 ;
+}
+a{
+	text-decoration: none;
+	text-decoration-color: #53FD02 ;
+	color: black ;
+}

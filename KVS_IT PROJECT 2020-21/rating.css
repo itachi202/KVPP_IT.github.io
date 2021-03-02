@@ -1,0 +1,165 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  align-items: center;
+  animation: bgcolor infinite 20%;
+}
+@keyframes bgcolor{
+  0%
+  {
+   background: #e74c3d;
+  }  
+  20%
+  {
+   background: #2980b9;
+  }
+  40%
+  {
+   background: #f1c40f;
+  }
+  60%
+  {
+   background: #8e44ad;
+  }
+  80%
+  {
+   background: #34495e;
+  } 
+  100%
+  {
+   background: #e74c3d;
+  }
+}
+button{
+  position: relative;
+  height: 60px;
+  width: 200px;
+  margin: 0 35px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #111;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.5s;
+  text-decoration: none;
+}
+button:first-child:hover{
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+}
+button:last-child:hover{
+  background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+  background-size: 400%;
+}
+button:first-child:before,
+button:last-child:before{
+  content: '';
+  position: absolute;
+  background: inherit;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  border-radius: 50px;
+  filter: blur(20px);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+button:first-child:hover:before,
+button:last-child:hover:before{
+  opacity: 1;
+  z-index: -1;
+}
+button:hover{
+  z-index: 1;
+  animation: glow 8s linear infinite;
+}
+@keyframes glow {
+  0%{
+    background-position: 0%;
+  }
+  100%{
+    background-position: 400%;
+  }
+}
+.center{
+  text-align: center;
+  align-items: center;
+}
+.center .stars{
+  position: static;
+  height: 75px;
+  width: 500px;
+  text-align: center;
+}
+.stars input{
+  display: none;
+}
+.stars label{
+  float: right;
+  font-size: 100px;
+  color: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);;
+  margin: 0 5px;
+  text-shadow: 1px 1px #bbb;
+}
+.stars label:before{
+  content: '★';
+}
+.stars input:checked ~ label{
+  color: red;
+  text-shadow: 1px 1px #c60;
+}
+.stars:not(:checked) > label:hover,
+.stars:not(:checked) > label:hover ~ label{
+  color: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+}
+.stars input:checked > label:hover,
+.stars input:checked > label:hover ~ label{
+  color: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+  text-shadow: 1px 1px goldenrod;
+}
+.stars .result:before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 50%;
+  transform: translateX(-47%);
+  bottom: -30px;
+  font-size: 30px;
+  font-weight: 500;
+  color: gold;
+  font-family: 'Poppins', sans-serif;
+  display: none;
+}
+.stars input:checked ~ .result:before{
+  display: block;
+}
+.stars #five:checked ~ .result:before{
+  content: "I love it ";
+  color: white;
+}
+.stars #four:checked ~ .result:before{
+  content: "I like it ";
+  color: white;
+}
+.stars #three:checked ~ .result:before{
+  content: "It's good ";
+  color: white;
+}
+.stars #two:checked ~ .result:before{
+  content: "I don't like it ";
+  color: black;
+}
+.stars #one:checked ~ .result:before{
+  content: "I hate it ";
+  color: black;
+}

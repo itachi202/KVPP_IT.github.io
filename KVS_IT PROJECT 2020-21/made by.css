@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  animation: Mymove infinite 21s;
+}
+@keyframes Mymove{
+  0%
+  {
+      background-image: url(304055.jpg);
+  }
+  20%
+  {
+    background-image: url(wallpapertip_wallpaper-full-color_345901.jpg);
+  }
+  40%
+  {
+    background-image: url(304055.jpg);
+  }
+  60%
+  {
+    background-image: url(wallpapertip_wallpaper-full-color_345901.jpg);
+  }
+  80%
+  {
+    background-image: url(304055.jpg);
+  }
+  100%
+  {
+    background-image: url(wallpapertip_wallpaper-full-color_345901.jpg);
+  }
+}
+
+.wrapper .table{
+  background: #fff;
+  width: calc(33% - 20px);
+  padding: 30px 30px;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.table .ribbon{
+  width: 190px;
+  height: 250px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  overflow: hidden;
+}
+
+.table .ribbon span{
+  position: absolute;
+  top: 30px;
+  right: 0;
+  transform: rotate(-45deg);
+  width: 250px;
+  background: #a26bfa;
+  padding: 0px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+}
+.wrapper{
+  color: black;
+}
+
+.dec{
+  font-family: cursive;
+}
