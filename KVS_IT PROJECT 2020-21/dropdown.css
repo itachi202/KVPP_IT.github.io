@@ -8,7 +8,6 @@ body{
   font-family: sans-serif;
   overflow: hidden;
   user-select: none;
-  /*background-image: url(92190705-computer-background-in-blues-mail-signs-globe-keyboard-and-buildings-.jpg);*/
   animation: bgcolor infinite 13s;
 }
 @keyframes bgcolor{
@@ -19,8 +18,9 @@ body{
 }
 20%
 {
-  background-image: url(330634.jpg);
+  background-image: url(fgxn.jpg);
   background-size: 1200px 900px;
+  background-blend-mode: color-dodge;
 }
 40%
 {
@@ -37,10 +37,7 @@ body{
   background-image: url(wp192945.jpg);
   background-size: 1200px 900px;
 }
-90%{
-  background-image: url(qP9BwD.jpg);
-  background-size: 1200px 900px;;
-}
+
 100%{
   background-image: url(3320156.jpg);
   background-size: 1200px 900px;
