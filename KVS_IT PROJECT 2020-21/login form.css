@@ -131,3 +131,9 @@ form .pass-link a:hover,
 form .signup-link a:hover{
   text-decoration: underline;
 }
+.heading1 h1{
+  text-transform: uppercase;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+}
