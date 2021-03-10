@@ -6,9 +6,13 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-	background-image: url(304055.jpg);
-	background-repeat: repeat-y;
-	background-image size: 1200px 800px; 
+	
+  /*filter: blur(8px);
+  -webkit-filter:blur(8px);*/
+}
+.background{
+  *filter: blur(8px);
+  -webkit-filter:blur(8px);*
 }
 h1{
    text-transform: uppercase;
