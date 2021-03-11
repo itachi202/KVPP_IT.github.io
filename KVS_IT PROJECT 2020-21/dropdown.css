@@ -6,41 +6,51 @@
 }
 body{
   font-family: sans-serif;
-  overflow: hidden;
-  user-select: none;
+  
   animation: bgcolor infinite 13s;
 }
 @keyframes bgcolor{
   0%
 {
     background-image: url(3320156.jpg);
-    background-size: 1200px 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 20%
 {
   background-image: url(Internet_Business_Technology_HD_Wallpaper_07_2560x1600.jpg);
-  background-size: 1200px 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
   
 }
 40%
 {
   background-image: url(92190705-computer-background-in-blues-mail-signs-globe-keyboard-and-buildings-.jpg);
-  background-size: 1200px 900px;
-}
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
 60%
 {
   background-image: url(BCbl2cq.png);
-  background-size: 1200px 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 80%
 {
   background-image: url(wp192945.jpg);
-  background-size: 1200px 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 100%{
   background-image: url(3320156.jpg);
-  background-size: 1200px 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 }
