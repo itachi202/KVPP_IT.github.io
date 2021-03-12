@@ -10,7 +10,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover cover;
   background-position: center center;
-  
+  text-decoration: none;
   /*animation: bgcolor infinite 13s;*/
 }
 /*@keyframes bgcolor{
