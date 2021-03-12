@@ -4,15 +4,14 @@
   outline: none;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  
 }
 body{
 	
-  /*filter: blur(8px);
-  -webkit-filter:blur(8px);*/
-}
-.background{
-  *filter: blur(8px);
-  -webkit-filter:blur(8px);*
+  background-image: url(o9cTXkK.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+  margin: 10px 10px 10px 10px;
 }
 h1{
    text-transform: uppercase;

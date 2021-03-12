@@ -17,26 +17,39 @@ body{
   0%
   {
       background-image: url(304055.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
   }
   20%
   {
+    
     background-image: url(wallpapertip_wallpaper-full-color_345901.jpg);
+    background-size: cover;
+      background-repeat: no-repeat; 
   }
   40%
   {
     background-image: url(304055.jpg);
+    background-size: cover;
+      background-repeat: no-repeat;  
   }
   60%
   {
     background-image: url(wallpapertip_wallpaper-full-color_345901.jpg);
+    background-size: cover;
+      background-repeat: no-repeat;
   }
   80%
   {
     background-image: url(304055.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
   }
   100%
   {
     background-image: url(wallpapertip_wallpaper-full-color_345901.jpg);
+  background-size: cover;
+      background-repeat: no-repeat;
   }
 }
 

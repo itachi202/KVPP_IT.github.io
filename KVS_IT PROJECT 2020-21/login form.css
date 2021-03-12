@@ -7,7 +7,8 @@
 html,body{
   background-image: url(78l1LF6-purple-flower-background.jpg);
   background-repeat: no-repeat;
-  background-size: 1000px 656px;
+  background-size:cover;
+  
   display: grid;
   height: 100%;
   width: 100%;

@@ -6,6 +6,8 @@
 body{
     background-image: url(black-red-metal-background_71775-391.jpg);
     font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .wrapper{

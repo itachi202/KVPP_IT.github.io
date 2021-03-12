@@ -7,7 +7,9 @@
 }
 body{
 	background-image: url(wallpapertip_background-wallpaper_3777.jpg);
-	background-size: 1100px 900px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 12px 12px 12px 12px;
 
 }
 h1{

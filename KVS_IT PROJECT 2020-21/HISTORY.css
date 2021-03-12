@@ -4,8 +4,9 @@
 }
 body{
 	background-image: url(wp2777444-light-purple-background.jpg);
-	text-decoration:none;
-	background-size: 1100px 900px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 12px 12px 12px 12px;
 }
 a{
 	text-decoration: none;

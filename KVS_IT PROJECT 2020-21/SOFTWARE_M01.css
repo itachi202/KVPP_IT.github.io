@@ -6,7 +6,8 @@ body{
     background-image: url(396540.jpg);
     background-repeat: repeat-y;
     background-blend-mode: normal;
-    background-size: 1000px 900px;
+    background-size: ;
+    margin: 12px 12px 12px 12px;
 }
 h1{
 	text-transform: uppercase;

@@ -5,6 +5,8 @@
 body{
 	text-decoration:none;
 	background-color: #B8C7E8;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 p{
 	text-decoration: none;
