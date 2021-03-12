@@ -8,7 +8,8 @@ body{
   font-family: sans-serif;
   background-image: url(92190705-computer-background-in-blues-mail-signs-globe-keyboard-and-buildings-.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover 900px;
+  background-position: center center;
   
   /*animation: bgcolor infinite 13s;*/
 }
