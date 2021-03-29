@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    border: solid ;
+}
+#first_wrappper{
+    border: 2px  rgb(149, 10, 214) solid;
+   
+}
+#first_heading{
+    color: #000;
+    font-size: 20px;
+}

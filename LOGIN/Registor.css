@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ca97ec;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.heading1{
+    margin-top: 24px;
+    border: dotted #000 3px;
+    border-radius: 8px;
+    border-width: thick;
+
+}
+.form1{
+    
+    border: solid 4px #000009;
+}
+ form{
+    border: solid 3px #000000;
+}

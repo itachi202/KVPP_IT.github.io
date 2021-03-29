@@ -3,22 +3,23 @@
 <head>
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <style type="text/css">
-    
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
   	*{
   		margin:0px;
   		padding: 0px;
   		box-sizing: border-box;
 
   	}
+
   	body{
-  		margin-left:190px ;
-  		margin-right:190px;
-  		margin-top: 120px;
+		  box-sizing: border-box;
+		  padding: 0cm;
+  		margin-left:;
+  		margin-right:;
+  		margin-top:100px;
   		align-items: center;
   		text-align: center;
-  		border: solid #fff;
-  		border-left: 24px solid white;
-  		border-radius: 10px;
+
   		background-color: #151515;
   		justify-content: center;
   		font-family: arial,poppins,cursive;
@@ -28,12 +29,14 @@
 
   	}
   	body:hover{
-  		border-color: #ff0000;
+  		border-color: #982ae6;
       transition: 0.4s;
   	}
   	h1{
+		margin-top: 21px;;
   		font-size: 35px;
   		text-decoration: none;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   		color: #fff;
   	}
   	
@@ -47,7 +50,7 @@
   	form{
   		font-family: cursive;
   		background-color: rgba(0,0,0,0.1);
-  		padding: 40px 35px 60px;
+  		
   		box-sizing:border-box;
   		font-size: 24px;
 
@@ -59,7 +62,7 @@
   		width: 55vh; 
   		border-radius: 6px;
   		transition: 2.1s;
-  		font-size: 24px;
+  		font-size: 20px;
   		word-spacing: 3px;
   		font-family:cursive;
   		text-decoration: none;
@@ -70,11 +73,6 @@
   	input[type=text]{
   		border: 12px solid #fff;
   	}
-  	font #wrappper{
-  		align-items: right:
-  		;
-  	}
-  	i,input{
 
   	}
   	input[type=submit]{
@@ -91,21 +89,37 @@
   	input[type="email"]{
   		border:6px solid #fff;
   	}
-  	
+	a{
+		
+		color: white;
+
+	}
+	.wrapper{
+	    
+		border-left: 12cm;
+  		border: solid #fff;
+  		border-left: 24px solid white;
+  		border-radius: 10px;
+	}
+	
   </style>
   
 </head>
 <body>
 	<br><br>
-	<h1>LOGIN</h1>
+	<div class="wrapper">
+	<h1>Register form</h1><br><br>
 <form action="https://formspree.io/f/xnqoeqzv" method="post" autocomplete="on" id="my form">
 	<i class="fas fa-envelope-open-text fa-2x" id="envelope"></i>
-	<input type="email/phone" name="email" id="email" placeholder="  Email or Phone" size="30" required="on" autocomplete="on" ><br><br>
+	<input type="gmail" name="email" id="email" placeholder="  Email or Phone" size="30" required="on" autocomplete="on" ><br><br>
 	<i class="fas fa-key fa-2x"></i>
 	<input type="password" name="email" id="email" placeholder="  password" size="30" ><br>
 	<br>
-	<input type="submit" name="submit" id="submit" placeholder="  submit"><br>
-	<font color="#fff" >ㅤㅤㅤㅤㅤㅤㅤㅤNot a member?<a href="#" style="text-decoration: none;">Register</a>
-</form>
+	<input type="submit" name="submit" id="submit" placeholder="  submit"><br><br>
+	<font color="#fff" >
+		Already Registered?   <a href="#">Click here!</a>
+<br><br><br>
+	</form>
+</div>
 </body>
 </html>
