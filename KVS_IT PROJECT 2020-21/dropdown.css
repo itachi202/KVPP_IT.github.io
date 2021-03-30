@@ -6,9 +6,10 @@
 }
 body{
   font-family: sans-serif;
-  background-image: url(92190705-computer-background-in-blues-mail-signs-globe-keyboard-and-buildings-.jpg);
+  background: rgb(163,238,97);
+background: linear-gradient(126deg, rgba(163,238,97,1) 4%, rgba(115,236,198,1) 41%, rgba(0,177,213,0.6001751042213761) 77%);
   background-repeat: no-repeat;
-  background-size: cover cover cover cover all;
+  background-size: 1800px 1800px;
   background-position: center center;
   text-decoration: none;
   /*animation: bgcolor infinite 13s;*/
@@ -155,8 +156,21 @@ a{
 .position{
   color: black;
   
-  object-position: 100px 78%;
+  object-position: 70px 70%;
 }
 .logo{
   margin-top: ;
+}
+.wrapper_01{
+  color: rgb(12, 11, 11);
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+
+}
+#heading1 h1{
+  color: #000;
+  font-size: 45px;
+  align-items: center;
+  text-align: center;
 }
