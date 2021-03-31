@@ -16,7 +16,7 @@
 		  padding: 0cm;
   		margin-left:;
   		margin-right:;
-  		margin-top:100px;
+  		margin-top:30px;
   		align-items: center;
   		text-align: center;
 
@@ -72,11 +72,12 @@
   	}
   	input[type=text]{
   		border: 12px solid #fff;
-  	}
+		
+	  }
 
   	}
   	input[type=submit]{
-  		border: 0px solid #fff;
+  		border: 1px solid #fff;
   		border-radius: 6px;
   		transition: 0.4s;
 
@@ -84,42 +85,67 @@
   	input[type=submit]:hover{
   		
         background-image: url(shapes-1-1-popping-candy.gif);
-        color: #fff;
+        border: #fff 1px solid;
+		color: #Fff;
   	}
-  	input[type="email"]{
-  		border:6px solid #fff;
-  	}
+
 	a{
 		
 		color: white;
 
 	}
 	.wrapper{
-	    
+	    align-items: center;
+		text-align: center;
+		padding:25px 25px;
+		padding-left: 25px;
 		border-left: 12cm;
   		border: solid #fff;
   		border-left: 24px solid white;
   		border-radius: 10px;
+		  position: absolute;
 	}
+
+  	input[type="password"]{
+		padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+	  }
+	  input[type="text"]{
+		padding: 12px 20px;
+  margin: 6px 0;
+  box-sizing: border-box;
+	  }
+	  .content{
+		  align-items: center center;
+		  position: relative;
+		  transform: translate(25%,50%);
+	  }
 	
   </style>
   
 </head>
 <body>
 	<br><br>
+	<div class="content">
 	<div class="wrapper">
 	<h1>Register form</h1><br><br>
-<form action="https://formspree.io/f/xnqoeqzv" method="post" autocomplete="on" id="my form">
+<form action="https://formspree.io/f/xnqoeqzv" method="post" autocomplete="on" id="my form"autocomplete="on" id="my form">
+	<div class="new">
 	<i class="fas fa-envelope-open-text fa-2x" id="envelope"></i>
-	<input type="gmail" name="email" id="email" placeholder="  Email or Phone" size="30" required="on" autocomplete="on" ><br><br>
+	<input type="text" name="email" id="text" placeholder="  Email or Phone" size="30" required="on" autocomplete="on" ><br><br>
+	</div>
+	<div class="new1">
 	<i class="fas fa-key fa-2x"></i>
 	<input type="password" name="email" id="email" placeholder="  password" size="30" ><br>
+	</div>
 	<br>
-	<input type="submit" name="submit" id="submit" placeholder="  submit"><br><br>
+<input type="submit" name="submit" id="submit" placeholder="  submit"><br><br>
 	<font color="#fff" >
-		Already Registered?   <a href="#">Click here!</a>
+		Already Registered?   <a href="login form 01.html">Click here!</a>
 <br><br><br>
 	</form>
+</div>
 </div>
 </body>
 </html>
